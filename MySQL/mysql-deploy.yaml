@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mysql-deployment
+  name: updated-mysql-deployment
 spec:
   replicas: 1
   selector:
@@ -25,5 +25,5 @@ spec:
             - name: MYSQL_DATABASE
               value: Readings
           ports:
-            - containerPort: 3306
+            - containerPort: 3307
               name: mysql
