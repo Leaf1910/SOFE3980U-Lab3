@@ -13,7 +13,7 @@ spec:
         app: mysql
     spec:
       containers:
-        - image: updated-mysql/mysql-server:v1  # Corrected image name format
+        - image: updated-mysql/mysql-server:v1  
           name: mysql
           env:
             - name: MYSQL_ROOT_PASSWORD
@@ -21,7 +21,7 @@ spec:
             - name: MYSQL_USER
               value: user
             - name: MYSQL_PASSWORD
-              value: "1234"  # Enclosed the password in quotes
+              value: "1234"  
             - name: MYSQL_DATABASE
               value: Readings
           ports:
