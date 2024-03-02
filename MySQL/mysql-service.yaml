@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: updated-mysql-service
 spec:
-  type: NodePort #changed the service type to nodeport
+  type: NodePort
   ports:
-    - port: 3307  #changed the port number to 3307 from 3306
+    - port: 3307
   selector:
     app: mysql
