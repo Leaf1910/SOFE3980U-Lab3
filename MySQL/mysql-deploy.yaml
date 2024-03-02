@@ -19,11 +19,11 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               value: passwrd
             - name: MYSQL_USER
-              value: admin
+              value: user
             - name: MYSQL_PASSWORD
-              value: 1234
+              value: 1234    #changed the password
             - name: MYSQL_DATABASE
               value: Readings
           ports:
-            - containerPort: 3307 
+            - containerPort: 3307 #changed the port number to 3307 from 3306
               name: mysql
