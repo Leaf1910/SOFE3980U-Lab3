@@ -21,7 +21,7 @@ spec:
             - name: MYSQL_USER
               value: user
             - name: MYSQL_PASSWORD
-              value: "sofe3980u"  
+              value: sofe3980u  
             - name: MYSQL_DATABASE
               value: Readings
           ports:
